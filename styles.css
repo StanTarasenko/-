@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+body {
+    background-color: rgb(190, 187, 187);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container {
+    display: flex;
+    background-color: #fff;
+    width: 500px;
+    border-radius: 5px;
+
+}
+
+.container2 {
+    display: flex;
+    background-color: #fff;
+    width: 500px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    padding: 30px 40px;
+}
+
+.form-item{
+    font-size: 18px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-item.success input {
+    border-color: #3ce281;
+}
+
+.form-item.error input {
+    border-color: red;
+}
+
+.form-item label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-item input {
+    display: block;
+    padding: 5px 10px;
+}
+
+.form-item img {
+    visibility: hidden;
+    position: absolute;
+    top: 33px;
+    right: 90px;
+}
+
+.form-item.success img.check {
+    visibility: visible;
+}
+
+.form-item.error img.exclamation {
+    visibility: visible;
+}
+
+.form-item small {
+    visibility: hidden;
+    position: absolute;
+}
+
+.form-item.error small {
+    visibility: visible;
+    color: red;
+    font-style: italic;
+}
+
+.check {
+    width: 15px;
+    height: 15px;
+}
+
+.exclamation {
+    width: 15px;
+    height: 15px;
+}
+
+.form-button {
+    margin-top: 15px;
+    display: block;
+}
+
+.btn {
+    background-color: rgb(228, 225, 225);
+    border-radius: 3px;
+    padding: 7px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Of Programming</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form" id="form">
+            <h2>Работа со списком студентов</h2>
+            <div class="form-item success">
+                <label for="name">Имя: </label>
+                <input type="text" name="name" placeholder="Введите имя">
+                <img class="check" src="png/check.png" alt="">
+                <img class="exclamation" src="png/exclamation-mark.png" alt="">
+                <small>Заполните поле</small>
+            </div>
+    
+            <div class="form-item error">
+                <label for="surname">Фамилия: </label>
+                <input type="text" name="surname" placeholder="Введите фамилию">
+                <img class="check" src="png/check.png" alt="">
+                <img class="exclamation" src="png/exclamation-mark.png" alt="">
+                <small>Заполните поле</small> 
+            </div>
+    
+            <div class="form-item">
+                <label for="age">Возраст: </label>
+                <input type="text" name="age" placeholder="Введите возраст">
+                <img class="check" src="png/check.png" alt="">
+                <img class="exclamation" src="png/exclamation-mark.png" alt="">
+                <small>Заполните поле</small>
+            </div>
+    
+            <div class="form-item">
+                <label for="mark">Оценки: </label>
+                <input type="text" name="mark" placeholder="Введите оценки">
+                <img class="check" src="png/check.png" alt="">
+                <img class="exclamation" src="png/exclamation-mark.png" alt="">
+                <small>Заполните поле</small>
+            </div>
+    
+            <div class="form-item">
+                <label for="specialization">Специальность: </label>
+                <input type="text" name="specialization" placeholder="Введите специальность">
+                <img class="check" src="png/check.png" alt="">
+                <img class="exclamation" src="png/exclamation-mark.png" alt="">
+                <small>Заполните поле</small>
+            </div>
+    
+            <div class="form-button">
+                <input class="btn" type="button" value="Добавить студента">
+            </div>
+        </form>
+    
+    </div>
+
+    <div class="container2">
+        <div class="update">
+            <ol class="listOfStudents"></ol>
+            <button id="update">Обновить</button>
+        </div>
+    </div>
+</body>
+</html>
